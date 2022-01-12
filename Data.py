@@ -4,16 +4,15 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Halo {}
+Hey {}
 
-Selamat datang {}
+Welcome to {}
 
-Jika kamu tidak percaya bot ini, 
-1) gausah baca pesan ini
-2) blokir bot atau delete chat
+Note 
+1) Don't Block The Bot
+2) Another Bites You Will Not Get Your String
 
-Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain, Agar Tidak Delay. Terimakasih
-By @fckualot
+You can use me to generate pyrogram and telethon string session. Use the below buttons to know more!
     """
 
     # Home Button
@@ -29,12 +28,12 @@ By @fckualot
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton("✨ Maintaned By ✨", url="https://t.me/fckualot")],
+        [InlineKeyboardButton("✨ Maintaned By ✨", url="https://t.me/xGamer_s")],
         [
-            InlineKeyboardButton("Cara Menggunakan Saya ❔", callback_data="help"),
+            InlineKeyboardButton("How To Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ Info Bot Lain ♥", url="https://t.me/rioprojects")],
+        [InlineKeyboardButton("♥ WarZ Support ♥", url="https://t.me/WarZSupport")],
     ]
 
     # Help Message
@@ -53,13 +52,13 @@ By @fckualot
     ABOUT = """
 **About This Bot** 
 
-Sebuah telegram bot untuk mengambil pyrogram dan telethon string session by @stringriobot
+A Telegram Bot To Generate Pyrogram And Telethon String Session...
 
-Group Support : [Gabung](https://t.me/riogroupsupport)
+Team WarZ : [Team WarZ](https://t.me/TeamWarZ)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @fckualot
+Developer : @xGamer_s
     """
