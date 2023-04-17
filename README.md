@@ -34,7 +34,7 @@ Telegram bot to generate pyrogram and telethon string session.
 
 4. Enter the directory
    ```markdown
-   cd StringSessionBot
+   cd TG-String-Bot
    ```
 5. Run the file
    ```markdown
